@@ -9,6 +9,16 @@ package interfaces;
  *
  * @author seth
  */
-public class ImplementacionSQLSERVER {
+public class ImplementacionSQLSERVER implements AccesoDatos{
+
+    @Override
+    public void insertar() {
+        System.out.println("Insertar desde SQLSERVER");
+    }
+
+    @Override
+    public void listar() {
+           System.out.println("Listar desde SQLSERVER");
+    }
     
 }
