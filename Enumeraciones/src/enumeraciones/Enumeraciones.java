@@ -44,7 +44,7 @@ public class Enumeraciones {
                 System.out.println("Primer dia de la semana");
                 break;
             case MARTES:
-                System.out.println("Primer dia de la semana");
+                System.out.println("Segundo dia de la semana");
                 break;
             default:
                 System.out.println("Y asi seguimos con los demas dias");
@@ -59,7 +59,7 @@ public class Enumeraciones {
                 System.out.println("No. Paises en:" + continentes + ": " + continentes.getPaises());
                 break;
             default:
-                System.out.println("Y asi seguimos con los demÃ¡s contienentes");
+                System.out.println("Y asi seguimos con los demás contienentes");
         }
     }
 

@@ -23,7 +23,8 @@ public class Interfaces {
         ejecutar(datos,"insertar");
     }
     
-    private static void ejecutar(AccesoDatos datos, String accion){
+    private static void ejecutar(AccesoDatos datos, 
+            String accion){
         if("listar".equals(accion)){
             datos.listar();
         }

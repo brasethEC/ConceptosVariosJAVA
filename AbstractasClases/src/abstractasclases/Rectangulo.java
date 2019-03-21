@@ -17,7 +17,8 @@ public class Rectangulo extends FiguraGeometrica {
 
     public void dibujar() {
         //Comportamiento de la Clase Hija
-        System.out.println("Aquí­ deber­a dibujar un:" + this.getClass().getSimpleName());
+        System.out.println("Aquí­ deber­a dibujar un:" 
+                + this.getClass().getSimpleName());
     }
     
 }

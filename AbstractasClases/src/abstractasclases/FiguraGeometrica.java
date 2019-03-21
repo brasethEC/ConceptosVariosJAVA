@@ -10,7 +10,8 @@ package abstractasclases;
  * @author seth
  */
 public abstract class FiguraGeometrica {
-    protected String tipoFigura;
+    
+    protected String tipoFigura;    
 
     protected FiguraGeometrica(String tipoFigura){
         this.tipoFigura = tipoFigura;
@@ -27,6 +28,7 @@ public abstract class FiguraGeometrica {
         this.tipoFigura = tipoFigura;
     }
 
+    @Override
     public String toString() {
         return "Tipo de Figura: " + this.tipoFigura;
     }
